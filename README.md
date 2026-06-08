@@ -147,6 +147,3 @@ python tools/evaluate_artifact_benchmark.py \
 
 `--robust_inference artifact_tta` does not require retraining. It generates lightweight restoration views based on hair, air_bubble, skin_line, and highlight cues, and fuses multi-view predictions with conservative weights only in regions where the artifact cue is high. The default setting is `--robust_inference none`, which performs the original single forward-pass evaluation.
 
-<div align="center">
-<img width="1200" alt="Fig 7" src="https://github.com/user-attachments/assets/19959360-d49f-4155-9472-3eb60805f255" />
-</div>
