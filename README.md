@@ -12,12 +12,12 @@ Automated dermoscopic lesion segmentation is fundamental to computer-aided skin 
 1.  **Environment Setup:**
     Create the conda environment using the provided file:
     ```bash
-    git clone ${GitHub_Repo}
+    git clone https://github.com/28001736/ARL-UNet.git
     pip install -r requirements.txt
     ```
     
 2.  **DataSet:**
-    The ISIC17 and ISIC18 datasets, divided into a 7:3 ratio, can be found here [Baidu](https://pan.baidu.com/s/1Y0YupaH21yDN5uldl7IcZA?pwd=dybm) or [GoogleDrive](https://drive.google.com/file/d/1XM10fmAXndVLtXWOt5G0puYSQyI2veWy/view?usp=sharing).
+    We borrow the the same split of ISIC17 and ISIC18 datasets as [EMA-UNet](https://github.com/KWang0217/EMA-UNet), divided into a 7:3 ratio, can be found here [Baidu](https://pan.baidu.com/s/1Y0YupaH21yDN5uldl7IcZA?pwd=dybm) or [GoogleDrive](https://drive.google.com/file/d/1XM10fmAXndVLtXWOt5G0puYSQyI2veWy/view?usp=sharing).
 
     Download the **ISIC2017 and ISIC2018** dataset and ensure the directory structure is organized as follows:
     ```bash
